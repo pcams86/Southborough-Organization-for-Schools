@@ -1,0 +1,39 @@
+.image-container {
+  max-width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: rgb(92, 14, 11);
+}
+
+nav {
+  text-align: center;
+}
+
+a:hover {
+  background-color: rgb(67, 14, 11);
+}
+
+.image-wrapper {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+}
