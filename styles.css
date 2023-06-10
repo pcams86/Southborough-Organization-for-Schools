@@ -1,6 +1,11 @@
 .image-container {
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: auto;
 }
 
 ul {
@@ -21,11 +26,11 @@ a {
 }
 
 header {
-  background-color: rgb(92, 14, 11);
+  background-color: rgb(81, 43, 50);
 }
 
 nav {
-  text-align: center;
+  text-align: left;
 }
 
 a:hover {
@@ -33,7 +38,34 @@ a:hover {
 }
 
 .image-wrapper {
-  float: left;
-  width: 20%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-wrapper img {
+  max-width: 30%;
+  height: auto;
   margin-right: 20px;
+  margin-top: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.grid-container {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+}
+
+.grid-item {
+  padding: 10px;
 }
