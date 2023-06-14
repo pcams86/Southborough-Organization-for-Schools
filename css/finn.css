@@ -1,3 +1,19 @@
+:root {
+  --background-image: linear-gradient(
+    to right,
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(60, 109, 178),
+    rgb(61, 113, 72),
+    rgb(122, 95, 176),
+    rgb(67, 14, 11)
+  );
+}
+
 body {
   font-family: "Chalkboard", Arial, Helvetica, sans-serif;
   font-size: min(16px);
@@ -14,13 +30,7 @@ li {
 }
 
 header {
-  background-image: linear-gradient(
-    to right,
-    rgb(60, 109, 178),
-    rgb(61, 113, 72),
-    rgb(122, 95, 176),
-    rgb(67, 14, 11)
-  );
+  background-image: var(--background-image);
 }
 
 nav {
@@ -122,16 +132,14 @@ a.link:hover {
   margin-top: 5px;
 }
 
+.text-content {
+  overflow: hidden;
+}
+
 .page-break {
   page-break-after: always;
   height: 5px;
-  background-image: linear-gradient(
-    to right,
-    rgb(60, 109, 178),
-    rgb(61, 113, 72),
-    rgb(122, 95, 176),
-    rgb(67, 14, 11)
-  );
+  background-image: var(--background-image);
 }
 
 .finn-color {
