@@ -96,13 +96,13 @@ a.link:hover {
 .image-container {
   max-width: 100%;
   height: auto;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .image-container img {
   max-width: 100%;
   max-height: auto;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .mini-image-container {
