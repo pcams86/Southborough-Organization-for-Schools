@@ -41,6 +41,10 @@ p {
   text-align: justify;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   color: rgb(67, 14, 11);
 }

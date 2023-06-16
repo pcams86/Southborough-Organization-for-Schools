@@ -41,6 +41,10 @@ p {
   text-align: justify;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   color: rgb(67, 14, 11);
 }
@@ -81,6 +85,11 @@ a.link:hover {
 }
 
 .grid-item {
+  padding: 2px;
+}
+
+.grid-item-empty {
+  background-color: yellow;
   padding: 2px;
 }
 
