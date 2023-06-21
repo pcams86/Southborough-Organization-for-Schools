@@ -35,8 +35,17 @@ p {
   text-align: justify;
 }
 
+h1 {
+  color: rgb(67, 14, 11);
+  text-align: center;
+}
+
 h2 {
   color: rgb(67, 14, 11);
+}
+
+a {
+  text-decoration: none;
 }
 
 a.navbar {
