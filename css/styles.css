@@ -32,6 +32,7 @@ nav {
 }
 
 p {
+  max-width: 900px;
   text-align: justify;
 }
 
@@ -41,6 +42,7 @@ h1 {
 }
 
 h2 {
+  margin-right: 20px;
   color: rgb(67, 14, 11);
 }
 

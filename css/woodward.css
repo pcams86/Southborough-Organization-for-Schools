@@ -38,6 +38,7 @@ nav {
 }
 
 p {
+  max-width: 900px;
   text-align: justify;
 }
 
