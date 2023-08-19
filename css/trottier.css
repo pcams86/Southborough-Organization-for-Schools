@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-  text-align: left;
+  text-align: center;
 }
 
 p {
@@ -48,6 +48,10 @@ h1 {
 }
 
 h2 {
+  color: rgb(67, 14, 11);
+}
+
+h3 {
   color: rgb(67, 14, 11);
 }
 
@@ -72,6 +76,17 @@ a.link {
 
 a.link:hover {
   font-size: 20px;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-content {
+  text-align: left;
+  max-width: 900px;
+  padding: 0 10px;
 }
 
 .centered-links {
