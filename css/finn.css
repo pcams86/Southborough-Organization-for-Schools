@@ -110,6 +110,8 @@ a.link:hover {
 }
 
 .image-container {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
