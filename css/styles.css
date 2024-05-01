@@ -41,6 +41,7 @@ p {
   margin-left: 3%;
   list-style: disc;
   display: list-item;
+  font-family: "Chalkboard", Arial, Helvetica, sans-serif;
   font-size: min(16px);
 }
 
