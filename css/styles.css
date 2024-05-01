@@ -39,8 +39,9 @@ p {
   max-width: 900px;
   text-align: justify;
   margin-left: 3%;
-  list-style:disc;
+  list-style: disc;
   display: list-item;
+  font-size: min(16px);
 }
 
 h1 {
