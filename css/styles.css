@@ -35,6 +35,13 @@ p {
   max-width: 900px;
   text-align: justify;
 }
+.list {
+  max-width: 900px;
+  text-align: justify;
+  margin-left: 3%;
+  list-style:disc;
+  display: list-item;
+}
 
 h1 {
   color: rgb(67, 14, 11);
@@ -183,4 +190,10 @@ a.link:hover {
 
 .centered-links {
   align-items: center;
+}
+
+.position-description {
+  ul {
+    list-style: circle;
+  }
 }
